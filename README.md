@@ -11,7 +11,7 @@ a reverse shell by exploiting the buffer overflow
 with the program spike i started to fuzz the parameter trun
 i wrote a little script to do that
 
-'''bash
+'''console
 s_readline()
 s_string("TRUN ")
 s_string_variable("FUZZ")
